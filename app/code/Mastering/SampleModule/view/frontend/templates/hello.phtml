@@ -1,0 +1,14 @@
+<?php
+
+/** @var \Mastering\SampleModule\Block\Hello $block */
+?>
+
+<?php foreach ($block->getItems() as $item) : ?>
+    <p>
+    <h2><?php echo $item->getName(); ?></h2>
+    <h4><?php echo "(ID: {$item->getId()})" ?></h4>
+    <?php echo "<h3>Quantidade</h3>" . $item->getQuantity() ?>
+    <?php echo "<h3>Estoque</h3>" . $item->getStock() ?>
+    <hr />
+    </p>
+<?php endforeach; ?>

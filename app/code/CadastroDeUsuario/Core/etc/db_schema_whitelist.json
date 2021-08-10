@@ -1,0 +1,14 @@
+{
+    "cadastros": {
+        "column": {
+            "entity_id": true,
+            "nome": true,
+            "nome_de_usuario": true,
+            "email": true,
+            "genero": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

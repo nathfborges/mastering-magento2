@@ -1,0 +1,13 @@
+<?php
+/** @var \CadastroDeUsuario\Core\Block\Cadastros $block */
+?>
+<?php foreach ($block->getCadastrosFront() as $item): ?>
+    <p>
+        <?php echo $item->getEntityId(); ?> <br/>
+        <?php echo $item->getNome(); ?> <br/>
+        <?php echo $item->getNomeDeUsuario(); ?> <br/>
+        <?php echo $item->getEmail(); ?> <br/>
+        <?php echo $item->getGenero(); ?> <br/>
+        <hr>
+    </p>
+<?php endforeach; ?>
