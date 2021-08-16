@@ -26,6 +26,18 @@
             <directory>../../../vendor/*/framework/*/Test/Unit</directory>
             <directory>../../tests/unit/*/Test/Unit</directory>
         </testsuite>
+        <filter>
+            <whitelist>
+                <directory suffix=".php">src/</directory>
+            </whitelist>
+        </filter>
+        <logging>
+            <log type="tap" target="tests/build/report.tap"/>
+            <log type="junit" target="tests/build/report.junit.xml"/>
+            <log type="coverage-html" target="tests/build/coverage" charset="UTF-8" yui="true" highlight="true"/>
+            <log type="coverage-text" target="tests/build/coverage.txt"/>
+            <log type="coverage-clover" target="tests/build/logs/clover.xml"/>
+        </logging>
     </testsuites>
     <php>
         <ini name="date.timezone" value="America/Los_Angeles"/>

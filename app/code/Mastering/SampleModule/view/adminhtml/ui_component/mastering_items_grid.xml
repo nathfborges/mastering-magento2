@@ -23,19 +23,18 @@
             <argument name="requestFieldName" xsi:type="string">id</argument>
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="update_url" xsi:type="url" path="mui/index/render" />
+                    <item name="update_url" xsi:type="url" path="mui/index/render"/>
                     <item name="component" xsi:type="string">Magento_Ui/js/grid/provider</item>
                 </item>
             </argument>
         </argument>
     </dataSource>
     <listingToolbar name="listing_top">
-        <bookmark name="bookmarks" />
-        <columnsControls name="columns_controls" />
-        <exportButton name="export_button" />
-        <filterSearch name="fulltext" />
-        <filters name="listing_filters" />
-        <paging name="listing_paging" />
+        <bookmark name="bookmarks"/>
+        <columnsControls name="columns_controls"/>
+        <exportButton name="export_button"/>
+        <filterSearch name="fulltext"/>
+        <paging name="listing_paging"/>
     </listingToolbar>
     <columns name="mastering_items_columns">
         <argument name="data" xsi:type="array">
@@ -59,43 +58,35 @@
                 </item>
             </argument>
         </selectionsColumn>
-        <column name="id">
-            <argument name="data" xsi:type="array">
-                <item name="config" xsi:type="array">
-                    <item name="filter" xsi:type="string">integer</item>
-                    <item name="label" xsi:type="string" translate="true">Item ID</item>
-                </item>
-            </argument>
-        </column>
-        <column name="name">
+        <column name="item">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="filter" xsi:type="string">text</item>
-                    <item name="label" xsi:type="string" translate="true">Name</item>
+                    <item name="label" xsi:type="string" translate="true">Item</item>
                 </item>
             </argument>
         </column>
-        <column name="description">
+        <column name="peso">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
                     <item name="filter" xsi:type="string">text</item>
-                    <item name="label" xsi:type="string" translate="true">Description</item>
+                    <item name="label" xsi:type="string" translate="true">Peso</item>
                 </item>
             </argument>
         </column>
-        <column name="quantity">
+        <column name="codigo_produto">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="filter" xsi:type="string">integer</item>
-                    <item name="label" xsi:type="string" translate="true">Quantity</item>
+                    <item name="filter" xsi:type="string">text</item>
+                    <item name="label" xsi:type="string" translate="true">Código do produto</item>
                 </item>
             </argument>
         </column>
-        <column name="stock">
+        <column name="estoque">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="filter" xsi:type="string">boolean</item>
-                    <item name="label" xsi:type="string" translate="true">Estoque (Status)</item>
+                    <item name="filter" xsi:type="string">text</item>
+                    <item name="label" xsi:type="string" translate="true">Estoque</item>
                 </item>
             </argument>
         </column>

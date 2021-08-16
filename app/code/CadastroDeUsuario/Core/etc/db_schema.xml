@@ -5,8 +5,8 @@
     		<column xsi:type="int" name="entity_id" padding="10" identity="true" unsigned="true" nullable="false" comment="Entity Id"/>
     		<column xsi:type="varchar" name="nome" nullable="false" length="255" comment="Nomes dos clientes"/>
     		<column xsi:type="varchar" name="nome_de_usuario" nullable="false" length="255" comment="Nome de usuários dos clientes"/>
-    		<column xsi:type="varchar" name="email" nullable="false" length="255" comment="E-mail dos clientes"/>
-    		<column xsi:type="varchar" name="genero" length="1" comment="Genero dos clientes"/>
+    		<column xsi:type="varchar" name="e-mail" nullable="false" length="255" comment="E-mail dos clientes"/>
+    		<column xsi:type="int" name="idade" comment="idade"/>
     		<constraint xsi:type="primary" referenceId="PRIMARY">
     			<column name="entity_id"/>
     		</constraint>

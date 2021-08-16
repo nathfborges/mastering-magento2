@@ -21,7 +21,7 @@ class UpgradeData implements UpgradeDataInterface
                     'nome' => 'Nathália Ferreira Borges',
                     'nome_de_usuario' => 'nathfborges',
                     'email' => 'nathi-borges@hotmail.com',
-                    'genero' => 'F'
+                    'idade' => 21
                 ]
             );
 

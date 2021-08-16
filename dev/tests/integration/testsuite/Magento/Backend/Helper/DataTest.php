@@ -142,7 +142,7 @@ class DataTest extends \PHPUnit\Framework\TestCase
     public function testGetHomePageUrl()
     {
         $this->assertStringEndsWith(
-            'Index.php/backend/admin/',
+            'index.php/backend/admin/',
             $this->_helper->getHomePageUrl(),
             'Incorrect home page URL'
         );

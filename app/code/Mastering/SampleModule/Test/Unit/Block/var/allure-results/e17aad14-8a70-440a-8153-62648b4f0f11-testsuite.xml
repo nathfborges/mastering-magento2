@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1629128976758" stop="1629128976778" version="1.4.0">
+  <name>Mastering\SampleModule\Test\Unit\Block\HelloTest</name>
+  <test-cases>
+    <test-case start="1629128976759" stop="1629128976778" status="broken">
+      <name>testGetItems</name>
+      <failure>
+        <message>Too few arguments to function Mastering\SampleModule\Block\Hello::__construct(), 2 passed in /var/www/html/lojadaagata/app/code/Mastering/SampleModule/Test/Unit/Block/HelloTest.php on line 23 and exactly 4 expected</message>
+        <stack-trace>#0 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/TestCase.php(772): PHPUnit\Framework\TestResult-&gt;run()
+#1 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/TestSuite.php(639): PHPUnit\Framework\TestCase-&gt;run()
+#2 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/TestSuite.php(639): PHPUnit\Framework\TestSuite-&gt;run()
+#3 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(653): PHPUnit\Framework\TestSuite-&gt;run()
+#4 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/TextUI/Command.php(108): PHPUnit\TextUI\TestRunner-&gt;run()
+#5 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/TextUI/Command.php(68): PHPUnit\TextUI\Command-&gt;run()
+#6 /var/www/html/lojadaagata/vendor/phpunit/phpunit/phpunit(61): PHPUnit\TextUI\Command::main()
+#7 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

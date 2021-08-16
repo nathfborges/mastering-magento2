@@ -2,23 +2,19 @@
 
 namespace Mastering\SampleModule\Model\ResourceModel\Item;
 
-use Mastering\SampleModule\Model\ResourceModel\Item as ItemResource;
+use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 use Mastering\SampleModule\Model\Item;
+use Mastering\SampleModule\Model\ResourceModel\Item as ItemResource;
 
-class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
+/**
+ * @codeCoverageIgnore
+ */
+class Collection extends AbstractCollection
 {
     protected $_idFieldName = 'id';
 
-    /**
-     * Define the resource model & the model.
-     *
-     * @return void
-     */
     protected function _construct()
     {
-        $this->_init(
-            Item::class,
-            ItemResource::class
-        );
+        $this->_init(Item::class, ItemResource::class);
     }
 }

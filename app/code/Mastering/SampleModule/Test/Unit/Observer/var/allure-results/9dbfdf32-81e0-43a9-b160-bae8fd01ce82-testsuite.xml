@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1629128753802" stop="1629128753824" version="1.4.0">
+  <name>Mastering\SampleModule\Test\Unit\Observer\LoggerTest</name>
+  <test-cases>
+    <test-case start="1629128753804" stop="1629128753824" status="failed">
+      <name>testExecute</name>
+      <failure>
+        <message>Magento\Framework\Event\Observer::getEvent() was not expected to be called more than once.</message>
+        <stack-trace>#0 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/MockObject/Rule/InvocationOrder.php(40): PHPUnit\Framework\MockObject\Rule\InvokedCount-&gt;invokedDo()
+#1 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/MockObject/Matcher.php(133): PHPUnit\Framework\MockObject\Rule\InvocationOrder-&gt;invoked()
+#2 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/MockObject/InvocationHandler.php(122): PHPUnit\Framework\MockObject\Matcher-&gt;invoked()
+#3 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/MockObject/MockClass.php(42) : eval()'d code(200): PHPUnit\Framework\MockObject\InvocationHandler-&gt;invoke()
+#4 /var/www/html/lojadaagata/app/code/Mastering/SampleModule/Observer/Logger.php(21): Mock_Observer_c29d1cb7-&gt;getEvent()
+#5 /var/www/html/lojadaagata/app/code/Mastering/SampleModule/Test/Unit/Observer/LoggerTest.php(39): Mastering\SampleModule\Observer\Logger-&gt;execute()
+#6 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/TestCase.php(1414): Mastering\SampleModule\Test\Unit\Observer\LoggerTest-&gt;testExecute()
+#7 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/TestCase.php(1031): PHPUnit\Framework\TestCase-&gt;runTest()
+#8 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/TestResult.php(688): PHPUnit\Framework\TestCase-&gt;runBare()
+#9 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/TestCase.php(772): PHPUnit\Framework\TestResult-&gt;run()
+#10 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/TestSuite.php(639): PHPUnit\Framework\TestCase-&gt;run()
+#11 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/Framework/TestSuite.php(639): PHPUnit\Framework\TestSuite-&gt;run()
+#12 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/TextUI/TestRunner.php(653): PHPUnit\Framework\TestSuite-&gt;run()
+#13 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/TextUI/Command.php(108): PHPUnit\TextUI\TestRunner-&gt;run()
+#14 /var/www/html/lojadaagata/vendor/phpunit/phpunit/src/TextUI/Command.php(68): PHPUnit\TextUI\Command-&gt;run()
+#15 /var/www/html/lojadaagata/vendor/phpunit/phpunit/phpunit(61): PHPUnit\TextUI\Command::main()
+#16 {main}</stack-trace>
+      </failure>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

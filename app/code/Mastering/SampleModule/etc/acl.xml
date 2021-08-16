@@ -3,7 +3,8 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Mastering_SampleModule::mastering" title="Mastering" translate="title" sortOrder="900"></resource>
+                <resource id="Masteting_SampleModule::mastering" title="Mastering"
+                          translate="title" sortOrder="900"/>
             </resource>
         </resources>
     </acl>

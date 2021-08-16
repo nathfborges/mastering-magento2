@@ -128,7 +128,7 @@ class SwitchActionTest extends AbstractController
                     function (ContextInterface $context) {
                         return $context->getFromStore()->getCode() === 'fixture_second_store'
                             && $context->getTargetStore()->getCode() === 'default'
-                            && $context->getRedirectUrl() === 'http://localhost/Index.php/';
+                            && $context->getRedirectUrl() === 'http://localhost/index.php/';
                     }
                 ),
                 $data
@@ -159,7 +159,7 @@ class SwitchActionTest extends AbstractController
             ]
         );
         $this->dispatch('stores/store/switch');
-        $this->assertRedirect($this->equalTo('http://localhost/Index.php/'));
+        $this->assertRedirect($this->equalTo('http://localhost/index.php/'));
     }
 
     /**

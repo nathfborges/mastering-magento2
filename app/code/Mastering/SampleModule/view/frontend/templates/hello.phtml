@@ -1,14 +1,32 @@
 <?php
-
 /** @var \Mastering\SampleModule\Block\Hello $block */
 ?>
 
-<?php foreach ($block->getItems() as $item) : ?>
-    <p>
-    <h2><?php echo $item->getName(); ?></h2>
-    <h4><?php echo "(ID: {$item->getId()})" ?></h4>
-    <?php echo "<h3>Quantidade</h3>" . $item->getQuantity() ?>
-    <?php echo "<h3>Estoque</h3>" . $item->getStock() ?>
-    <hr />
-    </p>
-<?php endforeach; ?>
+<h1> Farmácia do Skate</h1>
+<table class="data table farmacia">
+<thead>
+<tr>
+    <th class="table id"><?php echo __('ID') ?></th>
+    <th class="col item"><?php echo __('Nome do Produto') ?></th>
+    <th class="col codigo"><?php echo __('Código') ?></th>
+    <th class="col peso"><?php echo __('Peso') ?></th>
+    <th class="col estoque"><?php echo __('Estoque') ?></th>
+</tr>
+</thead>
+    <tbody>
+    <?php foreach ($block->getItemsFront() as $item): ?>
+        <tr>
+            <td class="table id">
+                <?php echo $item->getId(); ?> <br/></td>
+            <td class="col item">
+                <?php echo $item->getItem(); ?> <br/></td>
+            <td class="col codigo">
+                <?php echo $item->getCodigo_produto(); ?> <br/></td>
+            <td class="col peso">
+                <?php echo $item->getPeso() . ' gramas';?> <br/></td>
+            <td class="col estoque">
+                <?php echo $item->getEstoque(); ?> <br/></td>
+        </tr>
+    <?php endforeach; ?>
+    </tbody>
+</table>

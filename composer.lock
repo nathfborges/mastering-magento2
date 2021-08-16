@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4aa5d7394e1110473c163e11c8d36072",
+    "content-hash": "84c4a54d5fe4202d4efb82347845de07",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -284,16 +284,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.187.0",
+            "version": "3.190.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1c7f307e0987bd8eacd2d99d78818a96b42511d1"
+                "reference": "5f6149b626e916dbfcd1b1b8e90c726060d5beba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1c7f307e0987bd8eacd2d99d78818a96b42511d1",
-                "reference": "1c7f307e0987bd8eacd2d99d78818a96b42511d1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/5f6149b626e916dbfcd1b1b8e90c726060d5beba",
+                "reference": "5f6149b626e916dbfcd1b1b8e90c726060d5beba",
                 "shasum": ""
             },
             "require": {
@@ -368,9 +368,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.187.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.190.1"
             },
-            "time": "2021-08-03T18:18:03+00:00"
+            "time": "2021-08-12T18:14:37+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2032,16 +2032,16 @@
         },
         {
             "name": "khanamiryan/qrcode-detector-decoder",
-            "version": "1.0.5.1",
+            "version": "1.0.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/khanamiryan/php-qrcode-detector-decoder.git",
-                "reference": "b96163d4f074970dfe67d4185e75e1f4541b30ca"
+                "reference": "04fdd58d86a387065f707dc6d3cc304c719910c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/khanamiryan/php-qrcode-detector-decoder/zipball/b96163d4f074970dfe67d4185e75e1f4541b30ca",
-                "reference": "b96163d4f074970dfe67d4185e75e1f4541b30ca",
+                "url": "https://api.github.com/repos/khanamiryan/php-qrcode-detector-decoder/zipball/04fdd58d86a387065f707dc6d3cc304c719910c1",
+                "reference": "04fdd58d86a387065f707dc6d3cc304c719910c1",
                 "shasum": ""
             },
             "require": {
@@ -2081,9 +2081,9 @@
             ],
             "support": {
                 "issues": "https://github.com/khanamiryan/php-qrcode-detector-decoder/issues",
-                "source": "https://github.com/khanamiryan/php-qrcode-detector-decoder/tree/1.0.5.1"
+                "source": "https://github.com/khanamiryan/php-qrcode-detector-decoder/tree/1.0.5.2"
             },
-            "time": "2021-04-21T08:02:08+00:00"
+            "time": "2021-07-13T18:46:38+00:00"
         },
         {
             "name": "klarna/m2-payments",
@@ -5325,14 +5325,14 @@
         },
         {
             "name": "magento/adobe-ims",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/adobe-ims/magento-adobe-ims-2.1.1.0.zip",
-                "shasum": "24888274bdecb8b18b6b0f9b632511323f2c32e5"
+                "url": "https://repo.magento.com/archives/magento/adobe-ims/magento-adobe-ims-2.1.2.0.zip",
+                "shasum": "6267d89c21cc6baa3c28df9261a4b8647d165940"
             },
             "require": {
-                "magento/module-adobe-ims": "2.1.1",
+                "magento/module-adobe-ims": "2.1.2",
                 "magento/module-adobe-ims-api": "2.1.0"
             },
             "type": "metapackage",
@@ -6557,11 +6557,11 @@
         },
         {
             "name": "magento/module-adobe-ims",
-            "version": "2.1.1",
+            "version": "2.1.2",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-adobe-ims/magento-module-adobe-ims-2.1.1.0.zip",
-                "shasum": "b9deb039362c69f4dd90aa48183e758b7b7226a9"
+                "url": "https://repo.magento.com/archives/magento/module-adobe-ims/magento-module-adobe-ims-2.1.2.0.zip",
+                "shasum": "85bf00e237b0f47341338a199fa3828a463de4cd"
             },
             "require": {
                 "magento/framework": "*",
@@ -17367,16 +17367,16 @@
         },
         {
             "name": "paragonie/sodium_compat",
-            "version": "v1.16.1",
+            "version": "v1.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/sodium_compat.git",
-                "reference": "2e856afe80bfc968b47da1f4a7e1ea8f03d06b38"
+                "reference": "c59cac21abbcc0df06a3dd18076450ea4797b321"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/2e856afe80bfc968b47da1f4a7e1ea8f03d06b38",
-                "reference": "2e856afe80bfc968b47da1f4a7e1ea8f03d06b38",
+                "url": "https://api.github.com/repos/paragonie/sodium_compat/zipball/c59cac21abbcc0df06a3dd18076450ea4797b321",
+                "reference": "c59cac21abbcc0df06a3dd18076450ea4797b321",
                 "shasum": ""
             },
             "require": {
@@ -17447,9 +17447,9 @@
             ],
             "support": {
                 "issues": "https://github.com/paragonie/sodium_compat/issues",
-                "source": "https://github.com/paragonie/sodium_compat/tree/v1.16.1"
+                "source": "https://github.com/paragonie/sodium_compat/tree/v1.17.0"
             },
-            "time": "2021-05-25T12:58:14+00:00"
+            "time": "2021-08-10T02:43:50+00:00"
         },
         {
             "name": "paypal/module-braintree",
@@ -21078,16 +21078,16 @@
         },
         {
             "name": "codeception/codeception",
-            "version": "4.1.21",
+            "version": "4.1.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "c25f20d842a7e3fa0a8e6abf0828f102c914d419"
+                "reference": "9777ec3690ceedc4bce2ed13af7af4ca4ee3088f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/c25f20d842a7e3fa0a8e6abf0828f102c914d419",
-                "reference": "c25f20d842a7e3fa0a8e6abf0828f102c914d419",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/9777ec3690ceedc4bce2ed13af7af4ca4ee3088f",
+                "reference": "9777ec3690ceedc4bce2ed13af7af4ca4ee3088f",
                 "shasum": ""
             },
             "require": {
@@ -21098,7 +21098,7 @@
                 "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "guzzlehttp/psr7": "~1.4",
+                "guzzlehttp/psr7": "^1.4 | ^2.0",
                 "php": ">=5.6.0 <9.0",
                 "symfony/console": ">=2.7 <6.0",
                 "symfony/css-selector": ">=2.7 <6.0",
@@ -21161,7 +21161,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Codeception/Codeception/issues",
-                "source": "https://github.com/Codeception/Codeception/tree/4.1.21"
+                "source": "https://github.com/Codeception/Codeception/tree/4.1.22"
             },
             "funding": [
                 {
@@ -21169,7 +21169,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2021-05-28T17:43:39+00:00"
+            "time": "2021-08-06T17:15:34+00:00"
         },
         {
             "name": "codeception/lib-asserts",
@@ -21643,16 +21643,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "1.13.1",
+            "version": "1.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "e6e7b7d5b45a2f2abc5460cc6396480b2b1d321f"
+                "reference": "5b668aef16090008790395c02c893b1ba13f7e08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/e6e7b7d5b45a2f2abc5460cc6396480b2b1d321f",
-                "reference": "e6e7b7d5b45a2f2abc5460cc6396480b2b1d321f",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/5b668aef16090008790395c02c893b1ba13f7e08",
+                "reference": "5b668aef16090008790395c02c893b1ba13f7e08",
                 "shasum": ""
             },
             "require": {
@@ -21709,9 +21709,9 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/annotations/issues",
-                "source": "https://github.com/doctrine/annotations/tree/1.13.1"
+                "source": "https://github.com/doctrine/annotations/tree/1.13.2"
             },
-            "time": "2021-05-16T18:07:53+00:00"
+            "time": "2021-08-05T19:00:23+00:00"
         },
         {
             "name": "doctrine/instantiator",

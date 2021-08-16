@@ -1,12 +1,15 @@
 <?php
-
 namespace Mastering\SampleModule\Api\Data;
 
 interface ItemInterface
 {
-    /** @return strings */
-    public function getName();
+    /**
+     * @return string
+     */
+    public function getName(): string;
 
-    /** @return string|null */
-    public function getDescription();
+    /**
+     * @return string|null
+     */
+    public function getDescription(): string;
 }

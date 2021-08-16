@@ -44,10 +44,10 @@
                 <item name="label" xsi:type="string" translate="true">General</item>
             </item>
         </argument>
-        <field name="name">
+        <field name="item">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string" translate="true">Name</item>
+                    <item name="label" xsi:type="string" translate="true">Nome do Produto</item>
                     <item name="dataType" xsi:type="string">text</item>
                     <item name="formElement" xsi:type="string">input</item>
                     <item name="validation" xsi:type="array">
@@ -56,12 +56,39 @@
                 </item>
             </argument>
         </field>
-        <field name="description">
+        <field name="peso">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="label" xsi:type="string" translate="true">Description</item>
+                    <item name="label" xsi:type="string" translate="true">Peso</item>
                     <item name="dataType" xsi:type="string">text</item>
                     <item name="formElement" xsi:type="string">input</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                    </item>
+                </item>
+            </argument>
+        </field>
+        <field name="estoque">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Estoque</item>
+                    <item name="dataType" xsi:type="string">text</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                    </item>
+                </item>
+            </argument>
+        </field>
+        <field name="codigo_produto">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string" translate="true">Código do produto</item>
+                    <item name="dataType" xsi:type="string">integer</item>
+                    <item name="formElement" xsi:type="string">input</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="required-entry" xsi:type="boolean">true</item>
+                    </item>
                 </item>
             </argument>
         </field>

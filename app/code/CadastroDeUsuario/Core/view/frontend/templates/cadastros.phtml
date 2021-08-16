@@ -1,13 +1,26 @@
 <?php
 /** @var \CadastroDeUsuario\Core\Block\Cadastros $block */
 ?>
-<?php foreach ($block->getCadastrosFront() as $item): ?>
-    <p>
+
+<table class="data table farmacia">
+    <?php foreach ($block->getCadastrosFront() as $item): ?>
+    <thead>
+    <tr>
+        <th class="table id"><?php echo __('ID') ?></th>
+        <th class="col item"><?php echo __('Nome do Produto') ?></th>
+        <th class="col codigo"><?php echo __('Código') ?></th>
+        <th class="col peso"><?php echo __('Peso em gramas') ?></th>
+        <th class="col estoque"><?php echo __('Estoque') ?></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
         <?php echo $item->getEntityId(); ?> <br/>
         <?php echo $item->getNome(); ?> <br/>
         <?php echo $item->getNomeDeUsuario(); ?> <br/>
         <?php echo $item->getEmail(); ?> <br/>
         <?php echo $item->getGenero(); ?> <br/>
         <hr>
-    </p>
-<?php endforeach; ?>
+    </tr>
+    <?php endforeach; ?>
+    </tbody>

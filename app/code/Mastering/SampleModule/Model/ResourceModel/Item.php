@@ -2,7 +2,12 @@
 
 namespace Mastering\SampleModule\Model\ResourceModel;
 
-class Item extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
+use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
+
+/**
+ * @codeCoverageIgnore
+ */
+class Item extends AbstractDb
 {
     protected function _construct()
     {

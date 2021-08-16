@@ -13,7 +13,7 @@ use Magento\TestFramework\Helper\Bootstrap;
 use Magento\TestFramework\TestCase\GraphQlAbstract;
 
 /**
- * Test the caching works properly for CMS Block
+ * Test the caching works properly for CMS Blocks
  */
 class BlockCacheTest extends GraphQlAbstract
 {
@@ -145,7 +145,7 @@ class BlockCacheTest extends GraphQlAbstract
     {
         $identifiersString = implode(',', $identifiers);
         $query = <<<QUERY
-    {
+    { 
         cmsBlocks(identifiers: ["$identifiersString"]) {
             items {
                 title

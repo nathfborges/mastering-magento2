@@ -5,13 +5,15 @@ namespace Mastering\SampleModule\Model\ResourceModel\Item\Grid;
 use Magento\Framework\Data\Collection\Db\FetchStrategyInterface as FetchStrategy;
 use Magento\Framework\Data\Collection\EntityFactoryInterface as EntityFactory;
 use Magento\Framework\Event\ManagerInterface as EventManager;
-use Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult;
 use Psr\Log\LoggerInterface as Logger;
 
-class Collection extends SearchResult
+/**
+ * @codeCoverageIgnore
+ */
+class Collection extends \Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult
 {
     public function __construct(
-        EntityFactory $entituFactory,
+        EntityFactory $entityFactory,
         Logger $logger,
         FetchStrategy $fetchStrategy,
         EventManager $eventManager,
@@ -19,7 +21,7 @@ class Collection extends SearchResult
         $resourceModel = 'Mastering\SampleModule\Model\ResourceModel\Item'
     ) {
         parent::__construct(
-            $entituFactory,
+            $entityFactory,
             $logger,
             $fetchStrategy,
             $eventManager,

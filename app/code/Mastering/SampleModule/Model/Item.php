@@ -2,12 +2,17 @@
 
 namespace Mastering\SampleModule\Model;
 
-use Mastering\SampleModule\Model\ResourceModel\Item as ItemResource;
+use Magento\Framework\Model\AbstractModel;
 
-class Item extends \Magento\Framework\Model\AbstractModel
+/**
+ * @codeCoverageIgnore
+ */
+class Item extends AbstractModel
 {
+    protected $_eventPrefix = 'mastering_sample_item';
+
     protected function _construct()
     {
-        $this->_init(ItemResource::class);
+        $this->_init(ResourceModel\Item::class);
     }
 }

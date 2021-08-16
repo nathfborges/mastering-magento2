@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1629053938531" stop="1629053938541" version="1.4.0">
+  <name>Mastering\SampleModule\Test\Unit\Cron\AddItemTest</name>
+  <test-cases>
+    <test-case start="1629053938532" stop="1629053938541" status="passed">
+      <name>testExecute</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

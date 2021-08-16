@@ -2,8 +2,12 @@
 
 namespace Mastering\SampleModule\Api;
 
+use Mastering\SampleModule\Api\Data\ItemInterface;
+
 interface ItemRepositoryInterface
 {
-    /** @return \Mastering\SampleModule\Api\Data\ItemInterface[] */
+    /**
+     * @return ItemInterface[]
+     */
     public function getList();
 }

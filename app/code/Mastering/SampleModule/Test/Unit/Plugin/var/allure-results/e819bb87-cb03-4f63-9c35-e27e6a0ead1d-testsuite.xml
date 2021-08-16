@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1629130401505" stop="1629130401525" version="1.4.0">
+  <name>Mastering\SampleModule\Test\Unit\Plugin\LoggerTest</name>
+  <test-cases>
+    <test-case start="1629130401507" stop="1629130401525" status="passed">
+      <name>testBeforeRun</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

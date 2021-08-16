@@ -8,7 +8,7 @@
  * See COPYING.txt for license details.
  */
 return [
-    // Block with abstract constructor arguments
+    // Blocks with abstract constructor arguments
     \Magento\Email\Block\Adminhtml\Template::class,
     \Magento\Email\Block\Adminhtml\Template\Edit::class,
     \Magento\Config\Block\System\Config\Edit::class,

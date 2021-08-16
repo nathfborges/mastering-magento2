@@ -364,7 +364,7 @@ class PhpRule implements RuleInterface
         }
 
         /**
-         * Only handle Controllers. ie: Ignore Block, Templates, and Models due to complexity in static resolution
+         * Only handle Controllers. ie: Ignore Blocks, Templates, and Models due to complexity in static resolution
          * of route
          */
         if (!preg_match(

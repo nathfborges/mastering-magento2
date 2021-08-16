@@ -2,14 +2,16 @@
 
 namespace Mastering\SampleModule\Controller\Adminhtml\Item;
 
+use Magento\Backend\App\Action;
+use Magento\Backend\App\Action\Context;
 use Mastering\SampleModule\Model\ItemFactory;
 
-class Save extends \Magento\Backend\App\Action
+class Save extends Action
 {
     private $itemFactory;
 
     public function __construct(
-        \Magento\Backend\App\Action\Context $context,
+        Context $context,
         ItemFactory $itemFactory
     ) {
         $this->itemFactory = $itemFactory;
@@ -18,8 +20,8 @@ class Save extends \Magento\Backend\App\Action
 
     public function execute()
     {
-        $this->itemFactory->create()
-            ->setData($this->getRequest()->getPostValue()['general'])
+        $item = $this->itemFactory->create();
+        $item->setData($this->getRequest()->getPostValue()['general'])
             ->save();
         return $this->resultRedirectFactory->create()->setPath('mastering/index/index');
     }

@@ -87,7 +87,7 @@ class TreeTest extends \PHPUnit\Framework\TestCase
     {
         $row = new \Magento\Framework\DataObject(['id' => 1]);
         $this->assertStringStartsWith(
-            'http://localhost/Index.php',
+            'http://localhost/index.php',
             $this->_treeBlock->getLoadTreeUrl($row),
             'Tree load URL is invalid'
         );

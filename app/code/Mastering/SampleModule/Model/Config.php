@@ -6,9 +6,7 @@ use Magento\Framework\App\Config\ScopeConfigInterface;
 
 class Config
 {
-
     const XML_PATH_ENABLED = 'mastering/general/enabled';
-    // const XML_PATH_CRON_EXPRESSION = 'mastering/general/cron_expression'; JÁ É USADO NO crontab.xml
 
     private $config;
 

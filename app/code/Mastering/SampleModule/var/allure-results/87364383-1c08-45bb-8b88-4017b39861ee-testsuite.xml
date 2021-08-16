@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alr:test-suite xmlns:alr="urn:model.allure.qatools.yandex.ru" start="1628792877165" stop="1628792877177" version="1.4.0">
+  <name>Mastering\SampleModule\Test\Unit\Block\HelloTest</name>
+  <test-cases>
+    <test-case start="1628792877166" stop="1628792877177" status="passed">
+      <name>testGetItems</name>
+    </test-case>
+  </test-cases>
+</alr:test-suite>

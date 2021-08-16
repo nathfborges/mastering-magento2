@@ -7,6 +7,9 @@ use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\SchemaSetupInterface;
 use Magento\Framework\DB\Ddl\Table;
 
+/**
+ * @codeCoverageIgnore
+ */
 class InstallSchema implements InstallSchemaInterface
 {
     /**
@@ -25,14 +28,32 @@ class InstallSchema implements InstallSchemaInterface
             ['identity' => true, 'nullable' => false, 'primary' => true],
             'Item ID'
         )->addColumn(
-            'name',
+            'item',
             Table::TYPE_TEXT,
             255,
             ['nullable' => false],
-            'Item Name'
+            'Nome do item'
+        )->addColumn(
+            'peso',
+            Table::TYPE_TEXT,
+            255,
+            ['nullable' => false],
+            'Peso do produto'
+        )->addColumn(
+            'codigo_produto',
+            Table::TYPE_TEXT,
+            50,
+            ['nullable' => false],
+            'Código do item'
+        )->addColumn(
+            'estoque',
+            Table::TYPE_INTEGER,
+            3,
+            ['nullable' => false],
+            'Quantidade de itens no estoque'
         )->addIndex(
-            $setup->getIdxName('mastering_sample_item', ['name']),
-            ['name']
+            $setup->getIdxName('mastering_sample_item', ['item']),
+            ['item']
         )->setComment(
             'Sample Items'
         );
